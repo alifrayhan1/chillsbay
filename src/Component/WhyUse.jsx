@@ -1,4 +1,4 @@
-import Carousel from "./carocel";
+import Carousel from "./Carousel";
 
 
 const card = [

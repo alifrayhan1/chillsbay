@@ -1,5 +1,7 @@
 import Banner from "./Banner";
+
 import Mood from "./Mood";
+import SeeHow from "./SeeHow";
 import Things from "./Things";
 import WhyUse from "./WhyUse";
 
@@ -11,6 +13,7 @@ function Home() {
         <Mood />
         <Things />
         <WhyUse/>
+        <SeeHow/>
    
     </>
   );
