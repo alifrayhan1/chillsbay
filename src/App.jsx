@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; 
 import Navbar from "./Component/Navbar";
-import Banner from "./Component/Banner";
 import "./App.css";
+import Home from "./Component/Home";
 
 function App() {
   return (
@@ -9,7 +9,8 @@ function App() {
       <Navbar className="z-50 fixed"/>
       <div className="mt-16 py-4">
         <Routes>
-          <Route path="/" element={<Banner />} />
+          <Route path="/" element={<Home />} />
+
         </Routes>
       </div>
     </Router>
